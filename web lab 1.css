@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myborder {
+  border: 3px solid black;
+  text-align: justify;
+}
+
+body {
+  background-color: lightgray;
+  font-size: 19px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: left;
+  text-shadow: 3px 2px gray;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: italic;
+}
